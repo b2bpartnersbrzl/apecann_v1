@@ -81,6 +81,7 @@ form .button{margin-top:calc(8 * var(--layout-unit));align-self:start}
 .contact-channels{border:0;padding:0;margin:calc(3 * var(--layout-unit)) 0 calc(22 * var(--layout-unit));min-width:0}
 .contact-channels legend{font:400 calc(13 * var(--layout-unit))/1.6 Arial,sans-serif;color:#59645a;margin-bottom:calc(4 * var(--layout-unit));padding:0}
 .field-help{font:400 calc(12 * var(--layout-unit))/1.6 Arial,sans-serif;color:#667269}
+#consent-help{margin-top:calc(20 * var(--layout-unit))}
 .channel-options{display:flex;flex-wrap:wrap;gap:calc(8 * var(--layout-unit)) calc(20 * var(--layout-unit));margin-top:calc(8 * var(--layout-unit))}
 .check-option{display:flex;align-items:center;gap:calc(8 * var(--layout-unit));min-height:calc(44 * var(--layout-unit));margin:0;cursor:pointer}
 .check-option input{appearance:none;-webkit-appearance:none;flex:0 0 calc(14 * var(--layout-unit));width:calc(14 * var(--layout-unit));height:calc(14 * var(--layout-unit));min-width:calc(14 * var(--layout-unit));max-width:calc(14 * var(--layout-unit));min-height:calc(14 * var(--layout-unit));max-height:calc(14 * var(--layout-unit));padding:0;margin:0;border:calc(1 * var(--layout-unit)) solid #9ca89c;border-radius:calc(2 * var(--layout-unit));background:#fffdf8;cursor:pointer}
