@@ -140,7 +140,7 @@ export default function Home() {
                 {formError && <p className="form-error" role="alert">{formError}</p>}
                 <button className="button" type="submit">{isSending ? 'Enviando…' : formError ? 'Tentar novamente' : 'Cadastrar'}</button>
                 <p id="consent-help" className="field-help">Você pode revogar esta autorização e cancelar o recebimento de mensagens a qualquer momento.</p>
-                <a className="privacy-form-link" href={sitePath("/privacidade")}><span aria-hidden="true">▸ </span>Leia a Política de Privacidade</a>
+                <a className="privacy-form-link" href={sitePath("/privacidade")}><span aria-hidden="true">▶ </span>Leia a Política de Privacidade</a>
                 <details className="data-use"><summary>Entenda como seus dados serão utilizados</summary><p>Nome, e-mail, celular, perfil de interesse e canais escolhidos serão utilizados para registrar seu interesse e direcionar as comunicações da APECANN. O contato por WhatsApp depende do número informado e da sua escolha desse canal.</p></details>
                 </fieldset>
               </form>
