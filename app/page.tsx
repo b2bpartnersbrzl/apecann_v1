@@ -70,7 +70,6 @@ export default function Home() {
             <h1 id="hero-title"><mark>Ciência que</mark><br /><mark>muda o olhar.</mark></h1>
             <p className="hero-description">Desenvolver possibilidades de tratamento. Com um propósito: o bem-estar de pessoas e animais.</p>
             <a className="button" href="#interesse">Quero acompanhar a APECANN</a>
-            <a className="text-link" href="#proposito">Conheça nosso propósito</a>
           </div>
           <figure className="hero-photo">
             <img src={sitePath("/images/casal-pet-horizontal.webp")} alt="Casal jovem em um passeio ao ar livre, com um cachorro no colo da mulher." width="1902" height="827" fetchPriority="high" />

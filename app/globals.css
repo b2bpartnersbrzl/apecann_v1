@@ -34,7 +34,6 @@ h3{font-size:calc(23 * var(--layout-unit));line-height:1.3;letter-spacing:-.025e
 .hero-copy{padding:calc(75 * var(--layout-unit)) 9% calc(70 * var(--layout-unit)) 10%;align-self:center}
 .eyebrow{font-size:calc(13 * var(--layout-unit));line-height:1.6;letter-spacing:.07em;text-transform:uppercase;margin-bottom:calc(28 * var(--layout-unit));max-width:calc(430 * var(--layout-unit))}
 .hero-description{font-size:calc(20 * var(--layout-unit));line-height:1.6;max-width:calc(450 * var(--layout-unit));margin:calc(30 * var(--layout-unit)) 0}
-.text-link{display:block;width:fit-content;font-size:calc(15 * var(--layout-unit));margin-top:calc(20 * var(--layout-unit))}
 .hero-photo,.lab-photo{position:relative;overflow:hidden}
 .hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 45%;position:absolute;inset:0}
 .section-space{padding:calc(110 * var(--layout-unit)) 8%;max-width:calc(1600 * var(--layout-unit));margin:auto}
@@ -141,11 +140,11 @@ form .button{margin-top:calc(8 * var(--layout-unit));align-self:start}
 @media(orientation:portrait) and (max-width:1000px) and (min-width:701px){.hero{min-height:795px}.hero-copy{width:59%;padding-left:5%}.hero h1{font-size:64px}.hero-description{max-width:340px;font-size:18px}.hero-photo img{object-position:60% center}.development-copy{width:52%;padding-right:5%}.development h2{font-size:48px}.lab-photo img{object-position:40% center}.pet-copy{padding-left:6%;width:54%}.pet-copy h2{font-size:48px}.pet-copy>p:not(.eyebrow){font-size:16px}}
 @media(orientation:portrait) and (max-width:700px){
  html{scroll-padding-top:0}
- .hero{min-height:980px;align-items:flex-start}
+ .hero{min-height:0;align-items:flex-start}
  .site-header{background:rgba(245,241,232,.78)}
  .site-header nav{padding:22px 0 12px}
  .site-header:has(nav.is-open){background:rgba(245,241,232,.94)}
- .hero-copy{width:100%;padding:480px 7% 65px;align-self:start}
+ .hero-copy{width:100%;padding:480px 7% 0;align-self:start}
  .hero h1{font-size:clamp(43px,10.5vw,70px);line-height:1.18}
  .hero .eyebrow{max-width:310px;margin-bottom:22px}
  .hero-description{font-size:18px;max-width:360px;margin:24px 0}
