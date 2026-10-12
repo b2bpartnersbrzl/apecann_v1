@@ -1,22 +1,22 @@
 # APECANN
 
-Código da página institucional “Em breve” da APECANN, recuperado da versão publicada em Sites. O repositório pode ser clonado e executado localmente com Next.js.
+Site institucional com pesquisa, propósito social, bem-estar humano e animal, política de privacidade e cadastro de interesse integrado ao Google.
 
-**Página pública:** <https://b2bpartnersbrzl.github.io/apecann_v1/>
+**Página pública:** https://apecann.com.br/
 
-## Clonar e executar
+## Executar localmente
 
-```bash
-git clone https://github.com/b2bpartnersbrzl/apecann_v1.git
-cd apecann_v1
-npm install
-npm run dev
-```
+Instale as dependências com `npm install`. Execute `npm run dev` e abra http://localhost:3000. A integração de cadastro aceita a prévia na porta 3107: use `npm run dev -- --port 3107` para validar o envio ao Google.
 
-Abra <http://localhost:3000> no navegador. Para uma versão de produção, execute `npm run build` e `npm start`.
+O GitHub Pages publica os arquivos da raiz de `gh-pages`. O código editável está em `main`. O cadastro é processado no Google Apps Script e armazenado em planilha privada, sem servidor Next.js em produção.
 
-O GitHub Pages publica os arquivos estáticos da raiz do branch `gh-pages`. A aplicação Next.js está no branch `main`. Alterações em `main` não atualizam automaticamente o Pages nem o endereço hospedado em Sites.
+## Preparar a publicação
+
+Execute `node scripts/preparar-pages.mjs CAMINHO_DA_PASTA_DE_TRABALHO` em uma pasta nova fora do repositório. O processo gera os arquivos em `out`, preserva o domínio `apecann.com.br`, fontes e prévia de compartilhamento. Não copia arquivos `.env` nem credenciais. Publique somente o conteúdo de `out` na raiz de `gh-pages`, preservando seu histórico.
+
+`node --test tests/cadastros.test.mjs` verifica o fluxo com dados simulados, sem enviar e-mails. Valide no navegador com cadastro fictício autorizado e remova somente as linhas de teste.
 
 ## Documentação
 
 - [Infraestrutura digital](docs/infraestrutura-digital.md)
+- [Cadastro, planilha e notificações](integrations/google/README.md)

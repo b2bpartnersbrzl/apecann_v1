@@ -56,3 +56,7 @@ Não há necessidade de renovação imediata, pois o domínio está pago até ma
 ## Recomendação
 
 Manter o DNS no Registro.br até a plataforma de hospedagem ser definida. A ausência de apontamentos evita conflito com um site anterior e permite configurar a publicação de forma limpa quando o projeto estiver pronto.
+
+## Publicação institucional, 12 de outubro de 2026
+
+O GitHub Pages usa `gh-pages` e o domínio `apecann.com.br`, preservado pelo arquivo `CNAME`. O endereço do GitHub redireciona para esse domínio. O formulário é processado no Google Apps Script e armazenado em uma planilha privada da conta oficial, com aviso à conta do cliente. O inventário de DNS de setembro acima é histórico e não descreve os apontamentos atuais.
