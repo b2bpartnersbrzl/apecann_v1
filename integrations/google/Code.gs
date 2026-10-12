@@ -111,7 +111,7 @@ function notify_(file,sheet,row,record,recipient) {
     const channels = [record[6]==='Sim'?'E-mail':'',record[7]==='Sim'?'WhatsApp':''].filter(Boolean).join(' e ');
     const link = file.getUrl()+'#gid='+sheet.getSheetId()+'&range=A'+row+':N'+row;
     const body = 'Novo cadastro de interesse na APECANN.\n\nNome: '+record[2]+'\nPerfil de interesse: '+record[5]+'\nCanais autorizados: '+channels+'\n\nConsulte os contatos e a autorização na planilha privada:\n'+link+'\n\nUtilize somente os canais escolhidos para o contato institucional.\n\nEdson';
-    MailApp.sendEmail({to:recipient,cc:'apecannoficial@gmail.com',subject:'APECANN | Novo cadastro de interesse',body:body,name:'Edson | APECANN'});
+    MailApp.sendEmail({to:recipient,cc:'apecannoficial@gmail.com',subject:'APECANN | Novo cadastro via site',body:body,name:'Edson | APECANN'});
     sheet.getRange(row,13,1,2).setValues([['Enviada',new Date()]]);
     sheet.getRange(row,14).setNumberFormat('dd/MM/yyyy HH:mm:ss');
   } catch { sheet.getRange(row,13).setValue('Falha no aviso'); }
