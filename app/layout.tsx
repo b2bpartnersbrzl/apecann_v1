@@ -18,18 +18,18 @@ export const metadata: Metadata = {
     type: "website",
     url: "./",
     images: [{
-      url: "compartilhar-apecann.jpg",
+      url: "compartilhar-apecann-logo.jpg",
       width: 1200,
       height: 630,
       type: "image/jpeg",
-      alt: "APECANN. Ciência que muda o olhar. Um casal com seu cachorro junto ao mar.",
+      alt: "Logo da APECANN sobre fundo claro.",
     }],
   },
   twitter: {
     card: "summary_large_image",
     title,
     description,
-    images: ["compartilhar-apecann.jpg"],
+    images: ["compartilhar-apecann-logo.jpg"],
   },
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
