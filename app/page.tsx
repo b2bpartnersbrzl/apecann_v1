@@ -141,7 +141,7 @@ export default function Home() {
                 <a className="privacy-form-link" href={sitePath("/privacidade")}>Leia a Política de Privacidade</a>
                 <details className="data-use"><summary>Entenda como seus dados serão utilizados</summary><p>Nome, e-mail, celular, perfil de interesse e canais escolhidos serão utilizados para registrar seu interesse e direcionar as comunicações da APECANN. O contato por WhatsApp depende do número informado e da sua escolha desse canal.</p></details>
                 {formError && <p className="form-error" role="alert">{formError}</p>}
-                <button className="button" type="submit">{isSending ? 'Enviando…' : formError ? 'Tentar novamente' : 'Quero acompanhar'}</button>
+                <button className="button" type="submit">{isSending ? 'Enviando…' : formError ? 'Tentar novamente' : 'Cadastrar'}</button>
                 </fieldset>
               </form>
               </>}
