@@ -2,7 +2,7 @@
 
 O site estático permanece no GitHub Pages. Após autorização do visitante, o formulário abre uma ponte invisível do Google Apps Script. A ponte recebe os campos, valida o cadastro e devolve a confirmação de gravação. Não depende de API Next.js nem de outra hospedagem.
 
-A planilha pertence a `apecannoficial@gmail.com`. `apecannbr@gmail.com` tem acesso de leitura e recebe avisos. O aviso contém nome, perfil, canais autorizados e link para consulta da linha na planilha privada. Os contatos completos permanecem na planilha.
+A planilha pertence a `apecannoficial@gmail.com`. `apecannbr@gmail.com` tem acesso de leitura e recebe avisos, com cópia para `apecannoficial@gmail.com`. O aviso contém nome, perfil, canais autorizados e link para consulta da linha na planilha privada. Os contatos completos permanecem na planilha. O visitante recebe confirmação na página, sem e-mail automático de confirmação.
 
 ## Configuração e manutenção
 

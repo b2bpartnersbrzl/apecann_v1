@@ -59,6 +59,7 @@ test('salva antes de notificar e uma repetição não duplica cadastro ou aviso'
   assert.equal(flow.rows[1][12],'Enviada');
   assert.equal(flow.mails.length,1);
   assert.equal(flow.mails[0].to,'apecannbr@gmail.com');
+  assert.equal(flow.mails[0].cc,'apecannoficial@gmail.com');
   assert.match(flow.mails[0].body,/Canais autorizados: E-mail/);
   assert.equal(flow.send(payload).ok,true);
   assert.equal(flow.rows.length,2);
