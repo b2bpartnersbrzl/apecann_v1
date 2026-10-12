@@ -1,3 +1,3 @@
-:HL["/_next/static/css/2f1d63013ba696f9.css","style"]
+:HL["/_next/static/css/d5a66bb9d412bf82.css","style"]
 :HL["/apecann-logo-lateral.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"privacidade","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"BFuO-azVA5DZQIg07pIt8"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"privacidade","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"gL0lL3kJx6Cp1SiIhR0s0"}
